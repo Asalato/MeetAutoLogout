@@ -152,7 +152,7 @@ function countDown(){
     timeRemaining -= 1;
     if(timeRemaining > 0) return;
     clearInterval(countDown);
-    location.reload();
+    document.querySelector("#ow3 > div.T4LgNb > div > div:nth-child(8) > div.crqnQb > div.rG0ybd.LCXT6 > div.q2u11 > div.s1GInc.zCbbgf > div > div.I5fjHe.wb61gb").click()
 }
 
 function checkNumber(){
@@ -160,7 +160,7 @@ function checkNumber(){
     let number = parseInt(node.innerHTML);
     if(number === -1 || number > targetNumber) return;
     clearInterval(checkNumber);
-    location.reload();
+    document.querySelector("#ow3 > div.T4LgNb > div > div:nth-child(8) > div.crqnQb > div.rG0ybd.LCXT6 > div.q2u11 > div.s1GInc.zCbbgf > div > div.I5fjHe.wb61gb").click()
 }
 
 stabn.onclick = function () {
