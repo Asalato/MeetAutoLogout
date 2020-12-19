@@ -9,4 +9,8 @@ A timer that will automatically reload the web page at the set time
 
 
 # How to Install
+## Tampermonkey scripts
 Show https://www.tampermonkey.net/faq.php#Q106
+
+## Chrome Extensions
+This package also available in [Chrome Web Store](https://chrome.google.com/webstore/detail/meet-auto-logout/mjhmmkedkgjeedidofmmkfkklhehajmm?hl=ja&authuser=0)
