@@ -1,0 +1,17 @@
+{
+  "name": "Meet Auto Logout",
+  "author": "Asalato",
+  "version": "2.2",
+  "description": "Provides the ability to automatically leave a meeting in Google's Meet Web app.",
+  "content_scripts": [{
+    "js": ["main.js"],
+    "css": ["style.css"],
+    "matches": ["https://meet.google.com/*"]
+  }],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "manifest_version": 2
+}

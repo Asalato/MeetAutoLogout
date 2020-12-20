@@ -1,0 +1,62 @@
+#logoutTimer {
+    background-color: white;
+    height: inherit;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 1100;
+    pointer-events: none;
+}
+#timer {
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    cursor: pointer;
+    pointer-events: auto;
+}
+#number {
+    width: 100%;
+    font-size: xx-large;
+    text-align: center;
+    cursor: pointer;
+    pointer-events: auto;
+}
+#startButton {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 60%;
+    cursor: pointer;
+    pointer-events: auto;
+}
+#stopButton {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 60%;
+    cursor: pointer;
+    pointer-events: auto;
+}
+#timeButton {
+    position: absolute;
+    top: 0%;
+    left: -12.3%;
+    width: 42%;
+    cursor: pointer;
+    pointer-events: auto;
+    text-align: center;
+}
+#numberButton {
+    position: absolute;
+    top: 50%;
+    left: -12.3%;
+    width: 42%;
+    cursor: pointer;
+    pointer-events: auto;
+    text-align: center;
+}
