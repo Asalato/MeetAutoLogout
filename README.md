@@ -15,7 +15,7 @@ It is available on Chrome Web Store, but this [Release](https://github.com/Asala
 Show https://www.tampermonkey.net/faq.php#Q106
 
 ## Chrome Extensions
-This package also available in [Chrome Web Store](https://chrome.google.com/webstore/detail/meet-auto-logout/mjhmmkedkgjeedidofmmkfkklhehajmm?hl=ja&authuser=0)
+This package also available in [Chrome Web Store](https://chrome.google.com/webstore/detail/meet-auto-logout/mjhmmkedkgjeedidofmmkfkklhehajmm)
 
 ## Chrome Extensions (Install Manually)
 1. Download zip folder from [Release](https://github.com/Asalato/ReloadTimer/releases) and unzip it
