@@ -19,6 +19,6 @@ This package also available in [Chrome Web Store](https://chrome.google.com/webs
 
 ## Chrome Extensions (Install Manually)
 1. Download zip folder from [Release](https://github.com/Asalato/ReloadTimer/releases) and unzip it
-1. Access Chrome://extensions
+1. Access [Chrome://extensions](Chrome://extensions)
 1. Turn on the `Developer Mode` (toggle button in the upper right corner)
 1. Click "Load Unpackaged Extensions" and select the folder you downloaded
