@@ -1,4 +1,4 @@
-# ReloadTimer
+# MeetAutoLogout
 This file is a user script for [Tampermonkey](https://www.tampermonkey.net/).
 
 A timer that will automatically reload the web page at the set time.
