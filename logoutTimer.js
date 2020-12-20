@@ -1,79 +1,3 @@
-// ==UserScript==
-// @name         Logout Timer
-// @namespace    @
-// @version      1
-// @description  Logout
-// @author       Asalato
-// @match        https://meet.google.com/*
-// @grant        GM_addStyle
-// @run-at       document-idle
-// ==/UserScript==
-
-GM_addStyle ( `
-    #logoutTimer {
-        background-color: white;
-        height: inherit;
-        display: flex;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        width: 20%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        z-index: 1100;
-        pointer-events: none;
-    }
-    #timer {
-        width: 100%;
-        font-size: xx-large;
-        text-align: center;
-        cursor: pointer;
-        pointer-events: auto;
-    }
-    #number {
-        width: 100%;
-        font-size: xx-large;
-        text-align: center;
-        cursor: pointer;
-        pointer-events: auto;
-    }
-    #startButton {
-        position: absolute;
-        top: 100%;
-        left: 0%;
-        width: 60%;
-        cursor: pointer;
-        pointer-events: auto;
-    }
-    #stopButton {
-        position: absolute;
-        top: 100%;
-        right: 0%;
-        width: 60%;
-        cursor: pointer;
-        pointer-events: auto;
-    }
-    #timeButton {
-        position: absolute;
-        top: 0%;
-        left: -12.3%;
-        width: 42%;
-        cursor: pointer;
-        pointer-events: auto;
-        text-align: center;
-    }
-    #numberButton {
-        position: absolute;
-        top: 50%;
-        left: -12.3%;
-        width: 42%;
-        cursor: pointer;
-        pointer-events: auto;
-        text-align: center;
-    }
-` );
-
 let isTimer = true;
 
 const tn = document.createElement('div');
@@ -152,7 +76,9 @@ function countDown(){
     timeRemaining -= 1;
     if(timeRemaining > 0) return;
     clearInterval(countDown);
-    document.querySelector("#ow3 > div.T4LgNb > div > div:nth-child(8) > div.crqnQb > div.rG0ybd.LCXT6 > div.q2u11 > div.s1GInc.zCbbgf > div > div.I5fjHe.wb61gb").click()
+    const en = document.querySelector("#ow3 > div.T4LgNb > div > div:nth-child(8) > div.crqnQb > div.rG0ybd.LCXT6 > div.q2u11 > div.s1GInc.zCbbgf > div > div.I5fjHe.wb61gb");
+    if(en) en.click();
+    else location.reload();
 }
 
 function checkNumber(){
@@ -160,7 +86,9 @@ function checkNumber(){
     let number = parseInt(node.innerHTML);
     if(number === -1 || number > targetNumber) return;
     clearInterval(checkNumber);
-    document.querySelector("#ow3 > div.T4LgNb > div > div:nth-child(8) > div.crqnQb > div.rG0ybd.LCXT6 > div.q2u11 > div.s1GInc.zCbbgf > div > div.I5fjHe.wb61gb").click()
+    const en = document.querySelector("#ow3 > div.T4LgNb > div > div:nth-child(8) > div.crqnQb > div.rG0ybd.LCXT6 > div.q2u11 > div.s1GInc.zCbbgf > div > div.I5fjHe.wb61gb");
+    if(en) en.click();
+    else location.reload();
 }
 
 stabn.onclick = function () {
